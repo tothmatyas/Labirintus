@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Tamás\\Desktop\\asd\\Labirintus\\Molnár Tamás Sándor\\LabirintusJatek\\LabirintusJatek.csproj",
+      "projectUniqueName": "C:\\Users\\Tamás\\Desktop\\Új mappa\\Labirintus\\Molnár Tamás Sándor\\LabirintusJatek\\LabirintusJatek.csproj",
       "projectName": "LabirintusJatek",
-      "projectPath": "C:\\Users\\Tamás\\Desktop\\asd\\Labirintus\\Molnár Tamás Sándor\\LabirintusJatek\\LabirintusJatek.csproj",
+      "projectPath": "C:\\Users\\Tamás\\Desktop\\Új mappa\\Labirintus\\Molnár Tamás Sándor\\LabirintusJatek\\LabirintusJatek.csproj",
       "packagesPath": "C:\\Users\\Tamás\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Tamás\\Desktop\\asd\\Labirintus\\Molnár Tamás Sándor\\LabirintusJatek\\obj\\",
+      "outputPath": "C:\\Users\\Tamás\\Desktop\\Új mappa\\Labirintus\\Molnár Tamás Sándor\\LabirintusJatek\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Tamás\\AppData\\Roaming\\NuGet\\NuGet.Config",

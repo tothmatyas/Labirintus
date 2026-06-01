@@ -21,6 +21,7 @@ namespace LabirintusJatek
         static string invalidMapText;
         static string directionsText;
         static string roomFoundText;
+        static string roomNameText;
 
         static char[,] map;
 
@@ -33,6 +34,7 @@ namespace LabirintusJatek
         static bool[,] discovered;
 
         static string message = "";
+        static string palyanev = "";
 
         static HashSet<string> foundRooms = new HashSet<string>();
 
@@ -82,6 +84,7 @@ namespace LabirintusJatek
                 directionsText = "Possible directions";
 
                 roomFoundText = "New room discovered!";
+                roomNameText = "Enter map filename:";
             }
             else
             {
@@ -105,6 +108,7 @@ namespace LabirintusJatek
                 directionsText = "Lehetséges irányok";
 
                 roomFoundText = "Új terem felfedezve!";
+                roomNameText = "Add meg a pálya nevét:";
             }
 
             Console.Title = gameTitle;
@@ -453,7 +457,7 @@ namespace LabirintusJatek
 
         static void SaveGame()
         {
-            using (StreamWriter sw = new StreamWriter("save.txt"))
+            using (StreamWriter sw = new StreamWriter(palyanev + ".sav"))
             {
                 sw.WriteLine(playerRow);
                 sw.WriteLine(playerCol);
@@ -471,13 +475,13 @@ namespace LabirintusJatek
 
         static void LoadGame()
         {
-            if (!File.Exists("save.txt"))
+            if (!File.Exists(palyanev + ".sav"))
             {
                 message = english ? "No save found!" : "Nincs mentés!";
                 return;
             }
 
-            string[] lines = File.ReadAllLines("save.txt");
+            string[] lines = File.ReadAllLines(palyanev + ".sav");
 
             playerRow = int.Parse(lines[0]);
             playerCol = int.Parse(lines[1]);
@@ -545,7 +549,12 @@ namespace LabirintusJatek
                 hardMode = true;
             }
 
-            map = LoadMap("palya.txt");
+            Console.WriteLine();
+            Console.WriteLine(english ? roomNameText : roomNameText);
+            Console.WriteLine();
+            palyanev = Console.ReadLine();
+
+            map = LoadMap(palyanev + ".txt");
 
             if (IsInvalidMap(map))
             {

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LabirintusJatek")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+639059230194406a6e8db05fd56ff9f2dbb70fd1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+09146fe8396d5874db47fd3ec8fdc636b439c1ce")]
 [assembly: System.Reflection.AssemblyProductAttribute("LabirintusJatek")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LabirintusJatek")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

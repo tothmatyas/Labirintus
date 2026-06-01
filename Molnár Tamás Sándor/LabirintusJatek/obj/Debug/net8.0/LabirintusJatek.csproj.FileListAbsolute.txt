@@ -13,3 +13,18 @@ C:\Users\Tamás\Desktop\asd\Labirintus\Molnár Tamás Sándor\LabirintusJatek\ob
 C:\Users\Tamás\Desktop\asd\Labirintus\Molnár Tamás Sándor\LabirintusJatek\obj\Debug\net8.0\LabirintusJatek.genruntimeconfig.cache
 C:\Users\Tamás\Desktop\asd\Labirintus\Molnár Tamás Sándor\LabirintusJatek\obj\Debug\net8.0\ref\LabirintusJatek.dll
 C:\Users\Tamás\Desktop\asd\Labirintus\Molnár Tamás Sándor\LabirintusJatek\obj\Debug\net8.0\LabirintusJatek.sourcelink.json
+C:\Users\Tamás\Desktop\Új mappa\Labirintus\Molnár Tamás Sándor\LabirintusJatek\bin\Debug\net8.0\LabirintusJatek.exe
+C:\Users\Tamás\Desktop\Új mappa\Labirintus\Molnár Tamás Sándor\LabirintusJatek\bin\Debug\net8.0\LabirintusJatek.deps.json
+C:\Users\Tamás\Desktop\Új mappa\Labirintus\Molnár Tamás Sándor\LabirintusJatek\bin\Debug\net8.0\LabirintusJatek.runtimeconfig.json
+C:\Users\Tamás\Desktop\Új mappa\Labirintus\Molnár Tamás Sándor\LabirintusJatek\bin\Debug\net8.0\LabirintusJatek.dll
+C:\Users\Tamás\Desktop\Új mappa\Labirintus\Molnár Tamás Sándor\LabirintusJatek\bin\Debug\net8.0\LabirintusJatek.pdb
+C:\Users\Tamás\Desktop\Új mappa\Labirintus\Molnár Tamás Sándor\LabirintusJatek\obj\Debug\net8.0\LabirintusJatek.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Tamás\Desktop\Új mappa\Labirintus\Molnár Tamás Sándor\LabirintusJatek\obj\Debug\net8.0\LabirintusJatek.AssemblyInfoInputs.cache
+C:\Users\Tamás\Desktop\Új mappa\Labirintus\Molnár Tamás Sándor\LabirintusJatek\obj\Debug\net8.0\LabirintusJatek.AssemblyInfo.cs
+C:\Users\Tamás\Desktop\Új mappa\Labirintus\Molnár Tamás Sándor\LabirintusJatek\obj\Debug\net8.0\LabirintusJatek.csproj.CoreCompileInputs.cache
+C:\Users\Tamás\Desktop\Új mappa\Labirintus\Molnár Tamás Sándor\LabirintusJatek\obj\Debug\net8.0\LabirintusJatek.sourcelink.json
+C:\Users\Tamás\Desktop\Új mappa\Labirintus\Molnár Tamás Sándor\LabirintusJatek\obj\Debug\net8.0\LabirintusJatek.dll
+C:\Users\Tamás\Desktop\Új mappa\Labirintus\Molnár Tamás Sándor\LabirintusJatek\obj\Debug\net8.0\refint\LabirintusJatek.dll
+C:\Users\Tamás\Desktop\Új mappa\Labirintus\Molnár Tamás Sándor\LabirintusJatek\obj\Debug\net8.0\LabirintusJatek.pdb
+C:\Users\Tamás\Desktop\Új mappa\Labirintus\Molnár Tamás Sándor\LabirintusJatek\obj\Debug\net8.0\LabirintusJatek.genruntimeconfig.cache
+C:\Users\Tamás\Desktop\Új mappa\Labirintus\Molnár Tamás Sándor\LabirintusJatek\obj\Debug\net8.0\ref\LabirintusJatek.dll
