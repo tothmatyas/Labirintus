@@ -12,3 +12,4 @@ C:\Users\Tamás\Desktop\asd\Labirintus\Molnár Tamás Sándor\LabirintusJatek\ob
 C:\Users\Tamás\Desktop\asd\Labirintus\Molnár Tamás Sándor\LabirintusJatek\obj\Debug\net8.0\LabirintusJatek.pdb
 C:\Users\Tamás\Desktop\asd\Labirintus\Molnár Tamás Sándor\LabirintusJatek\obj\Debug\net8.0\LabirintusJatek.genruntimeconfig.cache
 C:\Users\Tamás\Desktop\asd\Labirintus\Molnár Tamás Sándor\LabirintusJatek\obj\Debug\net8.0\ref\LabirintusJatek.dll
+C:\Users\Tamás\Desktop\asd\Labirintus\Molnár Tamás Sándor\LabirintusJatek\obj\Debug\net8.0\LabirintusJatek.sourcelink.json

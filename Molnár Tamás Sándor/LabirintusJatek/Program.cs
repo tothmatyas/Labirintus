@@ -110,6 +110,44 @@ namespace LabirintusJatek
             Console.Title = gameTitle;
         }
 
+        static void SetStartPosition()
+        {
+            int rows = map.GetLength(0);
+            int cols = map.GetLength(1);
+
+            for (int i = 0; i < rows; i++)
+            {
+                if (roads.Contains(map[i, 0]) && IsOpenLeft(map[i, 0]))
+                {
+                    playerRow = i; playerCol = 0; return;
+                }
+            }
+
+            for (int i = 0; i < rows; i++)
+            {
+                if (roads.Contains(map[i, cols - 1]) && IsOpenRight(map[i, cols - 1]))
+                {
+                    playerRow = i; playerCol = cols - 1; return;
+                }
+            }
+
+            for (int j = 0; j < cols; j++)
+            {
+                if (roads.Contains(map[0, j]) && IsOpenUp(map[0, j]))
+                {
+                    playerRow = 0; playerCol = j; return;
+                }
+            }
+
+            for (int j = 0; j < cols; j++)
+            {
+                if (roads.Contains(map[rows - 1, j]) && IsOpenDown(map[rows - 1, j]))
+                {
+                    playerRow = rows - 1; playerCol = j; return;
+                }
+            }
+        }
+
         static string GetPossibleDirections()
         {
             string directions = "";
@@ -515,8 +553,7 @@ namespace LabirintusJatek
                 return;
             }
 
-            playerRow = 1;
-            playerCol = 0;
+            SetStartPosition();
 
             discovered = new bool[map.GetLength(0), map.GetLength(1)];
 
