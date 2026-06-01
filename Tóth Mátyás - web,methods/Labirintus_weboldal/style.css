@@ -1,0 +1,55 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background:cornsilk;
+    font-family:Consolas, 'Courier New', monospace;
+    line-height:1.6;
+}
+
+header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    top:0;
+    padding: 30px;
+}
+
+.language-switch button{
+    background:white;
+    border:none;
+    padding:8px 15px;
+    border-radius:5px;
+    cursor:pointer;
+    font-weight:bold;
+}
+
+.language-switch button:hover{
+    background:antiquewhite;
+}
+
+section{
+    padding:30px;
+}
+
+.card{
+    background: white;
+    padding:20px;
+    border-radius:10px;
+    margin-top:10px;
+}
+
+h2{
+    margin-bottom:10px;
+}
+
+img{
+    aspect-ratio: 16/9;
+    width: 500px;
+    padding: 15px;
+    border-radius: 10px;
+    padding-left: 0;
+}

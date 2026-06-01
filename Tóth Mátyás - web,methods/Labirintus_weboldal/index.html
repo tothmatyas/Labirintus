@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Labirintus bemutató</title>
+<link rel="stylesheet" href="style.css">
+<script defer src="script.js"></script>
+
+</head>
+<body>
+
+<header>
+    <h1 class="logo" data-hu="Labirintus Játék bemutatása" data-en="Labyrinth Game Showcase">    
+    </h1>
+    <div class="language-switch">
+        <button onclick="setLanguage('hu')">HU</button>
+        <button onclick="setLanguage('en')">EN</button>
+    </div>
+</header>
+<section>
+    <h2 data-hu="Alapvető játékmenet és információk"
+        data-en="Core Gameplay and Information">
+    </h2>
+    <div class="card">
+        <p  data-hu="A játékban a labirintusban a járatokban haladva kell megkeresni a kincses termeket.
+            Miután sikerült minden termet felfedezni, ki kell jutni valamelyik bejáraton. A labirintus szerkezetét egy m*n karakterből álló térkép határozza meg, amit szöveges állományban tárolunk.
+            Lehetőség van külön program segítségével a térkép szerkesztésére vagy új labirintus kialakítására."
+
+            data-en="In the game, you have to find the treasure rooms by moving through the passages in the labyrinth.
+            After you have explored all the rooms, you have to exit through one of the entrances. The structure of the labyrinth is determined by a map consisting of m*n characters, which is stored in a text file.
+            It is possible to edit the map or create a new labyrinth using a special program.">
+        </p>
+
+        <p data-hu="FONTOS: A játékhoz szükséges a labirintus térképét tartalmazó fájl, amit indulásnál be kell tölteni."
+
+           data-en="IMPORTANT: The game requires a file containing the labyrinth map, which must be loaded at startup.">
+        </p>
+    </div>
+</section>
+
+<section>
+    <h2 data-hu="Térképkészítő program"
+        data-en="Map Creation Program">
+    </h2>
+
+    
+    <div class="card">
+        
+        <p  data-hu="A program megnyitásakor egy üres rácsot látunk, melybe tetszőlegesen lehet a különböző elemeket helyezni"
+
+            data-en="When you open the program, you will see an empty grid where you can place different elements as you like.">
+        </p>
+        <p  data-hu="('╬','═','╦','╩','║','╣','╠','╗','╝','╚', '╔')"
+            data-en="('╬','═','╦','╩','║','╣','╠','╗','╝','╚', '╔')">
+
+        </p>
+        <p  data-hu="A járat karaktere meghatározza, hogy milyen irányban lehet tovább haladni. Például a '╦'karakter esetén lehet
+            nyugatnak, délnek és keletnek haladni. Ez természetesen csak akkor igaz, ha ahhoz megfelelő járatkarakter csatlakozik."
+            
+            data-en="The passage character determines in which direction you can continue. For example, in the case of the '╦' character, you can move west, south, and east. Of course, this is only true if there is a corresponding passage character connected to it.">
+
+        </p>
+
+        <p data-hu="A programban a nyilakkal lehet a mezők között lépkedni, az A D billentyűkkel lehet kiválasztani a kívánt elemet, majd az ENTER billentyűvel a  tetszőleges helyre helyezni"
+        
+        data-en="In the program, you can navigate between the fields using the arrow keys, select the desired element with the A D keys, and then place it anywhere with the ENTER key.">
+
+        </p>
+
+        <p  data-hu="Az M billentyű lenyomásával a menübe kerülünk, ahol a pályát le tudjuk menteni egy .txt fájlba, amennyiben a pálya játékra alkalmas"
+            data-en="By pressing the M key, you will enter the menu where you can save the level to a .txt file if it is suitable for gameplay.">
+        </p>
+
+        <img src="képek/terkep_minta.jpg" alt="minta">
+        <img src="képek/terkep_menu.jpg" alt="Menü">
+        <img src="képek/terkep_error.jpg" alt="error">
+    </div>
+</section>
+
+<section>
+    <h2 data-hu="Játék megkezdése"
+        data-en="Starting the Game">
+    </h2>
+    <div class="card">
+        <p  data-hu="A játék megkezdéséhez a program fájljaiba kell helyezi a pályát (/bin/Debug/net10.0), miután ezt megtettük, a programot el lehet indítani."
+
+            data-en="To start the game, you need to place the level in the program's files (/bin/Debug/net10.0). After that, you can start the program.">
+        </p>
+
+        <p data-hu="Indításkor a játékban lehet angol és magyar nyelv közül választani, majd a nyelv kiválasztása után, lehet könyyű és nehéz szintek között választani."
+
+            data-en="At startup, you can choose between English and Hungarian languages in the game, and after selecting the language, you can choose between easy and hard levels.">
+        </p>
+
+        <p data-hu="Indításkor a játékban lehet angol és magyar nyelv közülválasztani, majd a nyelv kiválasztása után, lehet könyyű és nehéz szintek     között választani."
+
+        data-en="At startup, you can choose between English and Hungarian languages in the game, and after selecting the language, you can choose between easy and hard levels.">
+        </p>
+
+        <img src="képek/jatek_nyelv.jpg" alt="Nyelv">
+        <img src="képek/jatek_nehez.jpg" alt="Nehez">
+        <img src="képek/jatek_jatek.jpg" alt="Jatek">
+    </div>
+</section>
+
+</body>
+</html>
