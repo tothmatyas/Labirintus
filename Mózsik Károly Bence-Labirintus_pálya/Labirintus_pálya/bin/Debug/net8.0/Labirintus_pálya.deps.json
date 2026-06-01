@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Labirintus_pálya/1.0.0": {
+        "runtime": {
+          "Labirintus_pálya.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Labirintus_pálya/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,14 @@
+C:\Users\bmozs\source\repos\Labirintus_pálya\Labirintus_pálya\bin\Debug\net8.0\Labirintus_pálya.exe
+C:\Users\bmozs\source\repos\Labirintus_pálya\Labirintus_pálya\bin\Debug\net8.0\Labirintus_pálya.deps.json
+C:\Users\bmozs\source\repos\Labirintus_pálya\Labirintus_pálya\bin\Debug\net8.0\Labirintus_pálya.runtimeconfig.json
+C:\Users\bmozs\source\repos\Labirintus_pálya\Labirintus_pálya\bin\Debug\net8.0\Labirintus_pálya.dll
+C:\Users\bmozs\source\repos\Labirintus_pálya\Labirintus_pálya\bin\Debug\net8.0\Labirintus_pálya.pdb
+C:\Users\bmozs\source\repos\Labirintus_pálya\Labirintus_pálya\obj\Debug\net8.0\Labirintus_pálya.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bmozs\source\repos\Labirintus_pálya\Labirintus_pálya\obj\Debug\net8.0\Labirintus_pálya.AssemblyInfoInputs.cache
+C:\Users\bmozs\source\repos\Labirintus_pálya\Labirintus_pálya\obj\Debug\net8.0\Labirintus_pálya.AssemblyInfo.cs
+C:\Users\bmozs\source\repos\Labirintus_pálya\Labirintus_pálya\obj\Debug\net8.0\Labirintus_pálya.csproj.CoreCompileInputs.cache
+C:\Users\bmozs\source\repos\Labirintus_pálya\Labirintus_pálya\obj\Debug\net8.0\Labirintus_pálya.dll
+C:\Users\bmozs\source\repos\Labirintus_pálya\Labirintus_pálya\obj\Debug\net8.0\refint\Labirintus_pálya.dll
+C:\Users\bmozs\source\repos\Labirintus_pálya\Labirintus_pálya\obj\Debug\net8.0\Labirintus_pálya.pdb
+C:\Users\bmozs\source\repos\Labirintus_pálya\Labirintus_pálya\obj\Debug\net8.0\Labirintus_pálya.genruntimeconfig.cache
+C:\Users\bmozs\source\repos\Labirintus_pálya\Labirintus_pálya\obj\Debug\net8.0\ref\Labirintus_pálya.dll
